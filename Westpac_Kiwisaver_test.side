@@ -1,0 +1,829 @@
+{
+  "id": "2ec61dbe-7624-47e2-a95c-5e0ecf7df97a",
+  "version": "2.0",
+  "name": "Westpac_Kiwisaver_test",
+  "url": "https://www.westpac.co.nz",
+  "tests": [{
+    "id": "8bcafa9a-28b4-489d-99d5-a3a6503863ca",
+    "name": "UserStory1_Scenario1",
+    "commands": [{
+      "id": "0dba5496-73cf-40af-8ffa-14d4f64b9245",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2c90ffc-25e6-42cc-88a8-0e6062ae9255",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e45c583-90ed-4680-9fb2-e47e3102f147",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ubermenu-section-link-kiwisaver-ps",
+      "targets": [
+        ["id=ubermenu-section-link-kiwisaver-ps", "id"],
+        ["linkText=KiwiSaver", "linkText"],
+        ["css=#ubermenu-section-link-kiwisaver-ps", "css:finder"],
+        ["xpath=//a[contains(text(),'KiwiSaver')]", "xpath:link"],
+        ["xpath=//a[@id='ubermenu-section-link-kiwisaver-ps']", "xpath:attributes"],
+        ["xpath=//li[@id='ubermenu-section-1-6-ps']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kiwisaver/')]", "xpath:href"],
+        ["xpath=//nav[3]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KiwiSaver')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf1a9851-0b48-4616-8403-0a465afe3163",
+      "comment": "",
+      "command": "click",
+      "target": "id=ubermenu-item-cta-kiwisaver-calculators-ps",
+      "targets": [
+        ["id=ubermenu-item-cta-kiwisaver-calculators-ps", "id"],
+        ["linkText=KiwiSaver calculators", "linkText"],
+        ["css=#ubermenu-item-cta-kiwisaver-calculators-ps", "css:finder"],
+        ["xpath=//a[contains(text(),'KiwiSaver calculators')]", "xpath:link"],
+        ["xpath=//a[@id='ubermenu-item-cta-kiwisaver-calculators-ps']", "xpath:attributes"],
+        ["xpath=(//li[@id='ubermenu-item-1-6-ps']/a)[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kiwisaver/calculators/')]", "xpath:href"],
+        ["xpath=//li[6]/div/ol/li[2]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KiwiSaver calculators')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8681416e-d2e7-4588-943f-fd04bc2b5308",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click here to get started.",
+      "targets": [
+        ["linkText=Click here to get started.", "linkText"],
+        ["css=p:nth-child(6) > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Click here to get started.')]", "xpath:link"],
+        ["xpath=//article[@id='content-ps']/div[2]/div/section/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kiwisaver/calculators/kiwisaver-calculator/')]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click here to get started.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fc9b8e0-d8c0-47f5-ba22-773c85de79cc",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "48ed9c3a-9c17-4e2d-8f39-b8a8b8ddf9b0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.wpnib-field-current-age:nth-child(1) .icon:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e2e4492-5764-4f04-a743-5bdb69a69ff6",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.wpnib-field-current-age:nth-child(1) .icon:nth-child(1)",
+      "targets": [
+        ["css=.wpnib-field-current-age:nth-child(1) .icon:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "1bc65c89-53d6-4953-8586-13facaa19d25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpnib-field-current-age:nth-child(1) .icon-target:nth-child(1)",
+      "targets": [
+        ["css=.wpnib-field-current-age:nth-child(1) .icon-target:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'View help for this field')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2107e6bc-d128-4b2b-b949-33be33e2406e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.wpnib-field-current-age p",
+      "targets": [
+        ["css=.wpnib-field-current-age p", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div/div/div/div/div[2]/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'This calculator has an age limit of 18 to 64 years old.')]", "xpath:innerText"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "68299921-e5ea-4131-995f-b2397f863887",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wpnib-field-current-age p",
+      "targets": [],
+      "value": "This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver."
+    }, {
+      "id": "a24f3c92-9684-4360-823a-08e93c114c49",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d72a645f-9982-4f6c-8754-e3232849f5df",
+    "name": "UserStory2_Scenario1",
+    "commands": [{
+      "id": "b32022aa-a678-46d0-812d-f918e36c092c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4a30395-b82d-43a0-9a8b-c724029dafbf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0114bb4a-49bc-48e1-b95f-4b51f4c45a73",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ubermenu-section-link-kiwisaver-ps",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e84b7174-b2f8-4892-a184-b5a5cfdc0625",
+      "comment": "",
+      "command": "click",
+      "target": "id=ubermenu-item-cta-kiwisaver-calculators-ps",
+      "targets": [
+        ["id=ubermenu-item-cta-kiwisaver-calculators-ps", "id"],
+        ["linkText=KiwiSaver calculators", "linkText"],
+        ["css=#ubermenu-item-cta-kiwisaver-calculators-ps", "css:finder"],
+        ["xpath=//a[contains(text(),'KiwiSaver calculators')]", "xpath:link"],
+        ["xpath=//a[@id='ubermenu-item-cta-kiwisaver-calculators-ps']", "xpath:attributes"],
+        ["xpath=(//li[@id='ubermenu-item-1010-6-ps']/a)[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kiwisaver/calculators/')]", "xpath:href"],
+        ["xpath=//li[6]/div/ol/li[2]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KiwiSaver calculators')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70a5d9dd-57e9-426d-b23e-6ae72c4fa70e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click here to get started.",
+      "targets": [
+        ["linkText=Click here to get started.", "linkText"],
+        ["css=p:nth-child(6) > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Click here to get started.')]", "xpath:link"],
+        ["xpath=//article[@id='content-ps']/div[2]/div/section/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kiwisaver/calculators/kiwisaver-calculator/')]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click here to get started.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f714fd59-0483-4f1a-ae04-ec0f0cbb7096",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff799ad6-8bc2-4ca0-8943-a862d45d01f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .ng-pristine",
+      "targets": [
+        ["css=.active .ng-pristine", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "662a2abe-dc1d-49be-a60b-bfe12018f8be",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.active .ng-pristine",
+      "targets": [
+        ["css=.active .ng-pristine", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "30"
+    }, {
+      "id": "cedd5db8-c255-46b5-b3c4-6db38b9c21a9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='widget']/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div",
+      "targets": [
+        ["css=.hover .well-value", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22c6b217-c16c-49ee-8cc3-8d593630eaaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.first-non-empty-option-item:nth-child(2) > .label",
+      "targets": [
+        ["css=.first-non-empty-option-item:nth-child(2) > .label", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div[2]/ul/li[2]/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2632caa4-15ae-44b3-b75e-90fe2cf9c5ef",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@type='text'])[2]",
+      "targets": [
+        ["css=.active .ng-pristine", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1dd0a5e-3eac-4a7e-923f-d59f6d19687f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.active .ng-valid",
+      "targets": [
+        ["css=.active .ng-valid", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "82000"
+    }, {
+      "id": "9acad844-79ce-406f-a401-631ea340c1d7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.active .ng-valid",
+      "targets": [
+        ["css=.active .ng-valid", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e88b2ad3-9075-4c17-96af-d25d4f0aa3a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=radio-option-04F",
+      "targets": [
+        ["id=radio-option-04F", "id"],
+        ["name=04G", "name"],
+        ["css=#radio-option-04F", "css:finder"],
+        ["xpath=//input[@id='radio-option-04F']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[4]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3277b3de-b1a1-4946-81d1-feab759aaba0",
+      "comment": "",
+      "command": "click",
+      "target": "id=radio-option-013",
+      "targets": [
+        ["id=radio-option-013", "id"],
+        ["name=014", "name"],
+        ["css=#radio-option-013", "css:finder"],
+        ["xpath=//input[@id='radio-option-013']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[7]/div/div/div/div[2]/div/div/div/div/div/div/div/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div[2]/div/div/div/div/div/div/div/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a88a992c-0ab8-4609-9387-d0a7c98d3f75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .label:nth-child(2)",
+      "targets": [
+        ["css=.btn > .label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'View your KiwiSaver retirement projections')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3445a940-e56e-45dd-9a20-81428ce8a421",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.result-valuea",
+      "targets": [
+        ["css=.results-heading", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div[3]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8e12fe5c-c842-435a-83ef-cc2b1b1fa2ce",
+    "name": "UserStory2_Scenario2",
+    "commands": [{
+      "id": "512a6411-665a-4385-b2e9-12915da6c638",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "675f374e-76cf-4378-bf48-13e4fa31638c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d707509-9f47-40cd-a1e4-a8a5a623936e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ubermenu-section-link-kiwisaver-ps",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c7d85d0-8a65-42de-8459-a8589eec6f8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ubermenu-item-cta-kiwisaver-calculators-ps",
+      "targets": [
+        ["id=ubermenu-item-cta-kiwisaver-calculators-ps", "id"],
+        ["linkText=KiwiSaver calculators", "linkText"],
+        ["css=#ubermenu-item-cta-kiwisaver-calculators-ps", "css:finder"],
+        ["xpath=//a[contains(text(),'KiwiSaver calculators')]", "xpath:link"],
+        ["xpath=//a[@id='ubermenu-item-cta-kiwisaver-calculators-ps']", "xpath:attributes"],
+        ["xpath=(//li[@id='ubermenu-item-1010-6-ps']/a)[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kiwisaver/calculators/')]", "xpath:href"],
+        ["xpath=//li[6]/div/ol/li[2]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KiwiSaver calculators')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0473fcfa-d7ea-4acc-b034-17cd1a0ca09e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click here to get started.",
+      "targets": [
+        ["linkText=Click here to get started.", "linkText"],
+        ["css=p:nth-child(6) > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Click here to get started.')]", "xpath:link"],
+        ["xpath=//article[@id='content-ps']/div[2]/div/section/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kiwisaver/calculators/kiwisaver-calculator/')]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click here to get started.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae5efdf9-b3d8-48b3-876c-ca9414de12e7",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb8986a4-b59b-4a00-95a2-487b6aed284b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .ng-pristine",
+      "targets": [
+        ["css=.active .ng-pristine", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc6afb09-c429-4f5a-9501-18c12f9f5230",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.active .ng-pristine",
+      "targets": [
+        ["css=.active .ng-pristine", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "45"
+    }, {
+      "id": "d72bb8cb-af0c-4e02-acd0-34ed0245b743",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='widget']/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div",
+      "targets": [
+        ["css=.hover .well-value", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad64cd38-a22c-489d-8014-032305ae77eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover .option-item:nth-child(3) > .label",
+      "targets": [
+        ["css=.hover .option-item:nth-child(3) > .label", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div[2]/ul/li[3]/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c41b1d8f-4c53-481f-adbf-1323b9648f83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .ng-pristine",
+      "targets": [
+        ["css=.active .ng-pristine", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e7506b8-61bd-405d-9b7a-6fa6148cd154",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.active .ng-valid",
+      "targets": [],
+      "value": "100000"
+    }, {
+      "id": "09ff9ca6-fba6-4b61-9472-fb476c868727",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control-with-period .ng-pristine",
+      "targets": [
+        ["css=.control-with-period .ng-pristine", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[4]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf8df6e3-8b89-4c3a-b2dc-5254e6ee52c4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.control-with-period .ng-valid",
+      "targets": [],
+      "value": "90"
+    }, {
+      "id": "e5c66059-fbe8-4dc1-be3e-c36e5c3940e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-selection .well-value",
+      "targets": [
+        ["css=.no-selection .well-value", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[4]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ff870d8-7f94-4e9c-86b8-32d943e23756",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option-item:nth-child(3) .ng-binding",
+      "targets": [
+        ["css=.option-item:nth-child(3) .ng-binding", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[4]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div[2]/ul/li[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/ul/li[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fortnightly')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae55bfa4-1064-4cf7-86bd-87d060674f8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=radio-option-016",
+      "targets": [
+        ["id=radio-option-016", "id"],
+        ["name=017", "name"],
+        ["css=#radio-option-016", "css:finder"],
+        ["xpath=//input[@id='radio-option-016']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[5]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3427a244-21c4-4b4b-a11f-a4b6e5cbe5c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover .ng-scope",
+      "targets": [
+        ["css=.hover .ng-scope", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[5]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/label/span[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d4c3b77-3890-423e-b201-f6d5f3a26e36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control-with-prefix .ng-pristine",
+      "targets": [
+        ["css=.control-with-prefix .ng-pristine", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[6]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e128690-60b2-402f-9558-2490cff87313",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.active .ng-valid",
+      "targets": [],
+      "value": "290000"
+    }, {
+      "id": "bf8948d2-a89c-4547-a4c3-36b4becf03ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .label:nth-child(2)",
+      "targets": [
+        ["css=.btn > .label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'View your KiwiSaver retirement projections')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "598a866b-34dc-4486-92c8-264ea6e70dbe",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.result-valuea",
+      "targets": [
+        ["css=.results-heading", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div[3]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5ecb2540-d43e-4217-8381-63e04f5a749e",
+    "name": "UserStory2_Scenario3",
+    "commands": [{
+      "id": "8174cfc7-c1a4-47a6-b9a2-82c3ef5c0e53",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c19cc96d-73aa-44aa-8b0c-9beab7930a72",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51bfe55e-567e-4506-8078-086548a00d08",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ubermenu-section-link-kiwisaver-ps",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44e3b811-020e-4d2c-8b41-ee91e6e8d6e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ubermenu-item-cta-kiwisaver-calculators-ps",
+      "targets": [
+        ["id=ubermenu-item-cta-kiwisaver-calculators-ps", "id"],
+        ["linkText=KiwiSaver calculators", "linkText"],
+        ["css=#ubermenu-item-cta-kiwisaver-calculators-ps", "css:finder"],
+        ["xpath=//a[contains(text(),'KiwiSaver calculators')]", "xpath:link"],
+        ["xpath=//a[@id='ubermenu-item-cta-kiwisaver-calculators-ps']", "xpath:attributes"],
+        ["xpath=(//li[@id='ubermenu-item-1010-6-ps']/a)[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kiwisaver/calculators/')]", "xpath:href"],
+        ["xpath=//li[6]/div/ol/li[2]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KiwiSaver calculators')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fb261a1-8f33-405c-aede-7429429a5963",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click here to get started.",
+      "targets": [
+        ["linkText=Click here to get started.", "linkText"],
+        ["css=p:nth-child(6) > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Click here to get started.')]", "xpath:link"],
+        ["xpath=//article[@id='content-ps']/div[2]/div/section/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kiwisaver/calculators/kiwisaver-calculator/')]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click here to get started.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05eb4f2c-12ca-4c81-902d-df8f5fcd3526",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c17ab91-38d1-4aa2-8296-390e2ac23058",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .ng-pristine",
+      "targets": [
+        ["css=.active .ng-pristine", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88a1af3d-e72e-4f61-acfc-9f246908f5e0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.active .ng-pristine",
+      "targets": [
+        ["css=.active .ng-pristine", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "55"
+    }, {
+      "id": "9aae8dab-0ad4-47b9-bcfb-e920f38e95bd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='widget']/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div",
+      "targets": [
+        ["css=.hover .well-value", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e25efe1-39b1-4876-825b-dac8081b9962",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover .option-item:nth-child(4)> .label",
+      "targets": [
+        ["css=.hover .option-item:nth-child(3) > .label", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div[2]/ul/li[3]/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95195823-a7ee-4a57-b4ea-9a1151e8a650",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .ng-pristine",
+      "targets": [
+        ["css=.active .ng-pristine", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e5b4044-087e-4792-b1a7-4f8461205077",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.active .ng-valid",
+      "targets": [],
+      "value": "140000"
+    }, {
+      "id": "1ce0444a-0e6b-443f-a3da-b541c0cbc417",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control-with-period .ng-pristine",
+      "targets": [
+        ["css=.control-with-period .ng-pristine", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[4]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b95108ff-a152-4ca5-a1db-52fb82d31ed2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.control-with-period .ng-valid",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "e4f21c33-f854-4365-9d51-393c1ad527c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-selection .well-value",
+      "targets": [
+        ["css=.no-selection .well-value", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[4]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cb5c229-a241-4474-9304-8e1d9e09aab7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option-item:nth-child(5) .ng-binding",
+      "targets": [
+        ["css=.option-item:nth-child(3) .ng-binding", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[4]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div[2]/ul/li[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/ul/li[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fortnightly')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd248cb4-b245-4206-be0a-1e5e7015ca85",
+      "comment": "",
+      "command": "click",
+      "target": "id=radio-option-019",
+      "targets": [
+        ["id=radio-option-016", "id"],
+        ["name=017", "name"],
+        ["css=#radio-option-016", "css:finder"],
+        ["xpath=//input[@id='radio-option-016']", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[5]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d9bb18b-3f23-4d69-9587-c6b0fc0fbaa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover .ng-scope",
+      "targets": [
+        ["css=.hover .ng-scope", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[5]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/label/span[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ac29e86-548c-4fd0-8aba-02cd98b30bca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control-with-prefix .ng-pristine",
+      "targets": [
+        ["css=.control-with-prefix .ng-pristine", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='widget']/div/div/div/div/div/div[6]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div[2]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d0cf778-b303-4449-9431-a50638e26b06",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.active .ng-valid",
+      "targets": [],
+      "value": "200000"
+    }, {
+      "id": "e64bb82a-a1a9-4565-b348-53a9ea0d8eb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .label:nth-child(2)",
+      "targets": [
+        ["css=.btn > .label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'View your KiwiSaver retirement projections')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85e8cef6-48f7-469e-a19a-5930b230dd09",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.result-valuea",
+      "targets": [
+        ["css=.result-value", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div[3]/div/div/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "857e5df9-5511-478d-835d-574b87084a45",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8bcafa9a-28b4-489d-99d5-a3a6503863ca"]
+  }],
+  "urls": ["https://www.westpac.co.nz/"],
+  "plugins": []
+}

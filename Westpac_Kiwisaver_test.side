@@ -131,7 +131,7 @@
     }, {
       "id": "a24f3c92-9684-4360-823a-08e93c114c49",
       "comment": "",
-      "command": "close",
+      "command": "//close",
       "target": "",
       "targets": [],
       "value": ""
@@ -327,12 +327,19 @@
       "id": "3445a940-e56e-45dd-9a20-81428ce8a421",
       "comment": "",
       "command": "verifyElementPresent",
-      "target": "css=.result-valuea",
+      "target": "css=.result-value",
       "targets": [
-        ["css=.results-heading", "css:finder"],
-        ["xpath=//div[@id='widget']/div/div/div/div[3]/div/div/div/div", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div/div/div/div[3]/div/div/div/div", "xpath:position"]
+        ["css=.result-value", "css:finder"],
+        ["xpath=//div[@id='widget']/div/div/div/div[3]/div/div/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "0e4b44c9-7c02-4741-ab57-275fffafcfa6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }, {
@@ -567,12 +574,19 @@
       "id": "598a866b-34dc-4486-92c8-264ea6e70dbe",
       "comment": "",
       "command": "verifyElementPresent",
-      "target": "css=.result-valuea",
+      "target": "css=.result-value",
       "targets": [
         ["css=.results-heading", "css:finder"],
         ["xpath=//div[@id='widget']/div/div/div/div[3]/div/div/div/div", "xpath:idRelative"],
         ["xpath=//div[3]/div/div/div/div/div[3]/div/div/div/div", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "0616536b-8b3c-4243-823c-5c82ad455c01",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }, {
@@ -807,12 +821,19 @@
       "id": "85e8cef6-48f7-469e-a19a-5930b230dd09",
       "comment": "",
       "command": "verifyElementPresent",
-      "target": "css=.result-valuea",
+      "target": "css=.result-value",
       "targets": [
         ["css=.result-value", "css:finder"],
         ["xpath=//div[@id='widget']/div/div/div/div[3]/div/div/div/div/span[2]", "xpath:idRelative"],
         ["xpath=//div/span[2]", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "861e605c-6588-4a9f-8ad5-1a29e63bb8be",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }],

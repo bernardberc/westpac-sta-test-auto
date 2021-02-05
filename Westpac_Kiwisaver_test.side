@@ -838,12 +838,12 @@
     }]
   }],
   "suites": [{
-    "id": "857e5df9-5511-478d-835d-574b87084a45",
-    "name": "Default Suite",
+    "id": "eb6ce555-a918-491e-a0ba-a64670e3e8ac",
+    "name": "Kiwisaver_Calculator_Test_Suite",
     "persistSession": false,
-    "parallel": false,
+    "parallel": true,
     "timeout": 300,
-    "tests": ["8bcafa9a-28b4-489d-99d5-a3a6503863ca"]
+    "tests": ["8bcafa9a-28b4-489d-99d5-a3a6503863ca", "d72a645f-9982-4f6c-8754-e3232849f5df", "8e12fe5c-c842-435a-83ef-cc2b1b1fa2ce", "5ecb2540-d43e-4217-8381-63e04f5a749e"]
   }],
   "urls": ["https://www.westpac.co.nz/"],
   "plugins": []
